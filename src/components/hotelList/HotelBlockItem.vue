@@ -79,6 +79,12 @@ export default {
 .hotel-name {
   font-size: 25px;
   font-family: 'Bahnschrift SemiBold', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  white-space: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4; /* 行数*/
+  -webkit-box-orient: vertical;
 }
 .risk-level {
   font-size: 22px;
